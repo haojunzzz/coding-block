@@ -1,0 +1,126 @@
+body {
+	background-color: #f1f1f1;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin: 50px auto;
+	max-width: 500px;
+	padding: 20px;
+}
+
+h1 {
+	color: #333;
+	font-size: 36px;
+	margin-top: 0;
+}
+
+p {
+	color: #666;
+	font-size: 16px;
+	margin-top: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 10px 0 20px;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	display: block;
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+button[type="submit"] {
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the error message */
+#login-error-msg {
+    opacity: 0;
+    font-size: 14px;
+    color: #FF0000;
+    text-align: center;
+    margin-top: 10px;
+    transition: opacity 0.3s ease;
+}
+
+#error-msg-second-line {
+display: block;
+}
+
+/* Style the social media icons */
+.social-media-icon {
+display: inline-block;
+width: 32px;
+height: 32px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+margin-right: 10px;
+}
+
+.google-icon {
+background-image: url("google.png");
+}
+
+.github-icon {
+background-image: url("github.png");
+}
+
+.facebook-icon {
+background-image: url("facebook.png");
+}
+
+.apple-icon {
+background-image: url("apple.png");
+}
+
+/* Style the footer */
+footer {
+background-color: #f1f1f1;
+padding: 20px;
+text-align: center;
+font-size: 14px;
+color: #666;
+margin-top: 30px;
+}
